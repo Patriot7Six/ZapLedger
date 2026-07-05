@@ -1,0 +1,9 @@
+control_id,framework,control_title,applicable_event_types
+3.1.1,NIST 800-171,Limit system access to authorized users,user_provisioned;user_deprovisioned
+3.1.5,NIST 800-171,Employ the principle of least privilege,user_provisioned;role_changed
+3.5.1,NIST 800-171,Identify system users and processes,user_provisioned
+CC6.2,SOC 2,Prior to issuing system credentials access is authorized,user_provisioned
+CC7.2,SOC 2,Monitor system components for anomalies,invoice_created;record_updated
+CC7.3,SOC 2,Evaluate security events to determine response,ticket_escalated;failure_detected
+164.312(a)(1),HIPAA,Implement technical policies for access control,user_provisioned;user_deprovisioned
+AC.L2-3.1.1,CMMC 2.0,Limit information system access,user_provisioned

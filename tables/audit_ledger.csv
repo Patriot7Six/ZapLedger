@@ -1,0 +1,4 @@
+record_id,zap_id,timestamp,actor,target,event_type,control_ids,payload_hash,ai_narrative,review_status
+00123,zap-onboard-finance,2026-07-01T10:12:00Z,hr-system,jdoe@company.com,user_provisioned,3.1.1;3.5.1;CC6.2;164.312(a)(1),a8f9c4d1e...,User provisioning event demonstrates practice 3.1.1 by restricting system access to authorized users only through role-based group assignment.,approved
+00124,zap-invoice-sync,2026-06-30T22:15:00Z,billing-system,acct-4471,invoice_created,CC7.2;3.14.6,b2e7a90f3...,Invoice creation event logged with source system verification per the CC7.2 change-tracking requirement.,pending
+00125,zap-support-escalation,2026-07-01T08:05:00Z,support-agent-14,ticket-88213,ticket_escalated,CC7.3,f14d6c2a8...,Escalation event recorded with timestamp and actor identity per the CC7.3 incident response control.,approved

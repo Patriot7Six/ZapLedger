@@ -1,0 +1,4 @@
+signal_id,zap_id,failure_ts,category,confidence,suggested_action,rationale
+fs-0091,zap-invoice-sync,2026-06-30T22:16:00Z,bad_auth,0.86,Refresh QuickBooks OAuth token,Error payload contains a 401 from QuickBooks matching an expired-token signature.
+fs-0092,zap-lead-routing,2026-06-29T14:02:00Z,rate_limit,0.74,Add delay step before Salesforce write,Salesforce API returned a 429 with a Retry-After header.
+fs-0093,zap-support-escalation,2026-06-28T03:44:00Z,schema_drift,0.52,Route to human triage,Zendesk payload is missing an expected custom field; confidence below the auto-repair threshold.

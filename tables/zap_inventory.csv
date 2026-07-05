@@ -1,0 +1,5 @@
+zap_id,zap_name,owner_email,team,trigger_app,action_apps,pii_touch,blast_radius,last_run_at,last_run_status,governance_state
+zap-onboard-finance,New Hire Finance Onboarding,ops@example.com,Finance,BambooHR,NetSuite;Slack,TRUE,72,2026-07-01T10:12:00Z,success,governed
+zap-lead-routing,Inbound Lead Routing,sales-ops@example.com,Sales,HubSpot,Salesforce;Slack,FALSE,35,2026-07-01T09:40:00Z,success,governed
+zap-invoice-sync,Invoice Sync to QuickBooks,finance@example.com,Finance,Stripe,QuickBooks;Gmail,TRUE,58,2026-06-30T22:15:00Z,error,ungoverned
+zap-support-escalation,Support Ticket Escalation,support-ops@example.com,Support,Zendesk,PagerDuty;Slack,FALSE,44,2026-07-01T08:05:00Z,success,governed

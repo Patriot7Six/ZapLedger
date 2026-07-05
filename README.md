@@ -37,14 +37,12 @@ review_status: approved
 
 ## How to Run It
 
-1. Clone the repo and open `/exports`.
-2. Import the six Zap templates into your Zapier workspace.
-3. Create the five Tables: Zap Inventory, Audit Ledger, Control Map, Failure Signals, Repair Proposals. Seed data in `/tables`.
-4. Configure the Zapier Platform API connection for Fabric Map.
-5. Enable the Zapier Agent step in Repair Agent.
-6. Open the Interfaces and start exploring.
-
-> Note: `/exports` and `/tables` aren't populated yet. This repo currently ships the architecture and spec; the importable templates are next.
+1. Clone the repo. `/tables` contains five ready-to-import CSV files with schema and example data. `/exports` contains six Zap blueprints (build specs, not native Zapier import files, since Zapier doesn't support file-based Zap import).
+2. Create the five Tables in your Zapier workspace: Zap Inventory, Audit Ledger, Control Map, Failure Signals, Repair Proposals. Import each corresponding CSV from `/tables`.
+3. Rebuild each of the six Zaps from the blueprints in `/exports`, in order. Blueprints 1 and 3 each carry an unverified assumption about Platform API capabilities, flagged in `/exports/README.md`; check those before building the rest.
+4. Once a Zap is built and working, turn it into a real Zapier Template (Zap editor menu, Create Template) and swap the corresponding blueprint link in this README for the live template link.
+5. Build the Interfaces pages for the Fabric Map dependency graph and the Repair Proposals approval queue.
+6. Enable the Zapier Agent step in Blueprint 3.
 
 ## Demo
 

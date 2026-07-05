@@ -1,0 +1,3 @@
+proposal_id,zap_id,action_summary,action_payload,status,reviewer,reviewed_at
+rp-0041,zap-invoice-sync,Refresh QuickBooks OAuth connection and retry the last failed run,"{""action"":""refresh_oauth"",""app"":""quickbooks""}",approved,bbaker@bradbaker-it.com,2026-07-01T09:00:00Z
+rp-0042,zap-lead-routing,Insert a 2-second delay before the Salesforce write step,"{""action"":""add_delay"",""seconds"":2}",pending,,
